@@ -1,0 +1,194 @@
+body{
+  text-align: center;
+  font-family: 'Montserrat';
+}
+.padding{
+  padding: 7% 15%;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* HEADINGS ✔ 🔥 */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+/* meet interesting dogs h1 */
+.first-title{
+  font-size: 3.1rem;
+  line-height: 1.3;
+  color: #fff;
+}
+/* features h3 */
+.features3{
+  font-size: 1.5rem;
+}
+/* testimonial headings h2 */
+.testimonial-heading{
+  padding: 5rem 5rem 0 5rem;
+  line-height: 1.5;
+  font-size: 2.3em;
+}
+/* pricing headings h2 plan for dogs needs */
+.pricing-heading{
+  padding-bottom: 5%;
+}
+/* cta heading h3 find ur dogs love */
+.end-text{
+  color: #fff;
+  font-size: 2.7em;
+}
+/* end of HEADINGS ✔.....🔥 */
+
+/* NAVBAR 🤳 */
+#tindogeh{
+  font-family: 'Ubuntu';
+}
+.navbar-brand{
+  padding: 2.3rem 0 3rem 0;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.navbar{
+  padding-left: 0;
+}
+.nav-item{
+  padding-right: 10%;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+/* END OF NAVBAR 🤳 */
+
+/* TITLE ✨ */
+#title{
+  text-align: left;
+}
+.first-section{
+  padding-bottom: 6%;
+}
+.photo{
+  width: 60%;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+  margin: 1.5rem 2rem; /*27px 36px*/
+  position: absolute;
+  right: 5%;
+}
+.Download-btn{
+  font-size: 1.1em;
+  margin: 2rem 0; /*32.4px for 1.8rem*/
+}
+.btn1{
+  margin-right: 1.3rem; /*23.4px */
+}
+/* END OF TITLE ✨ */
+
+/* FEATURES 👏 */
+#features{
+  position: relative;
+  z-index: 1;
+  margin-bottom: 7%;
+}
+.set{
+  margin-top: 2rem; /* 1rem = 18px*/
+}
+.rep-icon{
+  margin-bottom: 0.8rem;
+  font-size: 320%;
+  color: #ff8585;
+}
+.rep-icon:hover{
+  color: #ec5858;
+}
+.body-features{
+  color: #8f8f8f;
+}
+/* END OF FEATURES 👏 */
+
+/* TESTIMONIALS 🥺 */
+#testimonials{
+  background-color: #ec5858;
+  color: #fff;
+}
+.testimonial-image{
+  margin: 2.5%;
+  width: 11%;
+  border-radius: 100%;
+}
+/* END OF TESTIMONIALS 🥺 */
+
+/* PRESS 👀 */
+#press{
+  padding-bottom: 6%;
+  background-color: #ec5858;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px;
+}
+/* END OF PRESS 👀 */
+
+/* PRICING 🎲 */
+
+.main-text{
+  font-weight: bold;
+}
+.sub-text{
+  color: #8f8f8f;
+}
+.plan{
+  font-weight: bolder;
+  font-size: 2.7em;
+}
+/* END OF PRICING 🎲 */
+
+
+/* <!-- Call to Action --> */
+
+/* footer ✌*/
+
+.footer-icon{
+  margin: 0.8%;
+  margin-bottom: 1.7%;
+}
+.footer-text{
+  color: #8f8f8f;
+  font-size: 0.9rem;
+}
+/* end of footer ✌*/
+/* for mobile */
+@media (max-width:1048px) {
+  #title{
+    text-align: center;
+  }
+  .photo{
+    position: static;
+    transform: none;
+  }
+  #testimonials{
+    /* box-sizing: border-box; */
+    background-color: #ec5858;
+    color: #fff;
+    font-size: 0.6em;
+  }
+  .testimonial-heading{
+    padding: 0;
+    width: 100%;
+  }
+  .testimonial-image{
+    margin: 2.5%;
+    width: 21%;
+    border-radius: 100%;
+  }
+
+  .press-logo{
+    width: 23%;
+    margin: 20px 20px;
+  }
+}
